@@ -7,14 +7,14 @@
 variable "location" {
   type = string
   description = "Azure Region where all these resources will be provisioned"
-  default = "Central US"
+#  default = "Central US"
 }
 
 # Azure Resource Group Name
 variable "resource_group_name" {
   type = string
   description = "This variable defines the Resource Group"
-  default = "terraform-aks"
+#  default = "terraform-aks"
 }
 
 # Azure AKS Environment Name
@@ -36,14 +36,14 @@ variable "ssh_public_key" {
 # Windows Admin Username for k8s worker nodes
 variable "windows_admin_username" {
   type = string
-  default = "azureuser"
+#  default = "azureuser"
   description = "This variable defines the Windows admin username k8s Worker nodes"  
 }
 
 # Windows Admin Password for k8s worker nodes
 variable "windows_admin_password" {
   type = string
-  default = "P@ssw0rd1234"
+#  default = "P@ssw0rd1234"
   description = "This variable defines the Windows admin password k8s Worker nodes"  
 }
 
